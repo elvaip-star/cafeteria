@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cafetería Aroma</title>
+  <style>
+    body{margin:0;font-family:Arial, Helvetica, sans-serif;background:#faf7f2;color:#3b2f2f}
+    header{background:#4b2e2e;color:white;padding:24px;text-align:center}
+    nav a{color:white;margin:0 12px;text-decoration:none;font-weight:bold}
+    section{padding:40px 20px;max-width:1000px;margin:auto}
+    h2{border-bottom:2px solid #c9a66b;padding-bottom:8px}
+    .menu{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px}
+    .card{background:white;border-radius:12px;padding:16px;box-shadow:0 4px 10px rgba(0,0,0,0.08)}
+    .gallery{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:12px}
+    .gallery img{width:100%;border-radius:12px;height:180px;object-fit:cover}
+    footer{background:#4b2e2e;color:white;text-align:center;padding:16px;margin-top:30px}
+    .btn{display:inline-block;background:#c9a66b;color:white;padding:10px 18px;border-radius:8px;text-decoration:none;margin-top:10px}
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Cafetería Aroma</h1>
+  <nav>
+    <a href="#presentacion">Presentación</a>
+    <a href="#menu">Menú</a>
+    <a href="#local">Nuestro Local</a>
+  </nav>
+</header>
+
+<section id="presentacion">
+  <h2>Presentación</h2>
+  <p>Bienvenidos a Cafetería Aroma, un espacio acogedor donde el aroma del café recién hecho se mezcla con momentos inolvidables. Ofrecemos bebidas artesanales y pastelería fresca en un ambiente cálido y familiar.</p>
+  <a class="btn" href="#menu">Ver el menú</a>
+</section>
+
+<section id="menu">
+  <h2>Menú</h2>
+  <div class="menu">
+    <div class="card">
+      <h3>Café Americano</h3>
+      <p>Clásico, intenso y aromático.</p>
+      <strong>S/ 6.00</strong>
+    </div>
+    <div class="card">
+      <h3>Capuccino</h3>
+      <p>Espuma suave con espresso perfecto.</p>
+      <strong>S/ 8.00</strong>
+    </div>
+    <div class="card">
+      <h3>Mocha</h3>
+      <p>Mezcla deliciosa de café y chocolate.</p>
+      <strong>S/ 9.00</strong>
+    </div>
+    <div class="card">
+      <h3>Croissant</h3>
+      <p>Hojaldre crujiente y mantequilloso.</p>
+      <strong>S/ 7.00</strong>
+    </div>
+    <div class="card">
+      <h3>Muffin</h3>
+      <p>Esponjoso, ideal para acompañar tu café.</p>
+      <strong>S/ 6.50</strong>
+    </div>
+  </div>
+</section>
+
+<section id="local">
+  <h2>Nuestro Local</h2>
+  <div class="gallery">
+    <!-- REEMPLAZA LAS IMÁGENES CON TUS FOTOS -->
+    <img src="https://via.placeholder.com/400x300" alt="Foto del local 1" />
+    <img src="https://via.placeholder.com/400x300" alt="Foto del local 2" />
+    <img src="https://via.placeholder.com/400x300" alt="Foto del local 3" />
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 Cafetería Aroma — Todos los derechos reservados</p>
+</footer>
+
+</body>
+</html>
